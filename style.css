@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body {
+  overflow: hidden;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: white;
+}
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+.list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  font-size: 25px;
+}
+.items {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.items:hover {
+  color: blue;
+}
+.username {
+  padding: 10px 15px;
+  background: #e5f2ff;
+  color: #007bff;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.hero {  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:  60px;
+}
+.hero-text h1 {
+  font-size: 4vw;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+.hero-text span {
+  color: rgb(89, 89, 230);
+}
+.hero-text p {
+  font-size: 1.5vw;
+  color: rgb(78, 75, 75);
+  max-width: 40vw;
+  margin-bottom: 2rem;
+}
+.hero-text button {
+  padding: 1rem 1.5rem;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.hero-text button:hover {
+  background: rgb(89, 89, 230);
+}
+.hero-image img {
+  width: 50vw;
+  max-width: 400px;
+}
+
